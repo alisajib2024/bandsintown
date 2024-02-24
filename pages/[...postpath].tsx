@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://bandsintown.store/` + encodeURI(path as string)
+					`https://ticketavid.com/`
 				}`,
 			},
 		};
